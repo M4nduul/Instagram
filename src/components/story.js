@@ -1,13 +1,11 @@
 import './story.scss';
-import StoryList from './stortyList'
 
 
 const Story = () => {
     
     return (
         <div>
-            
-            <StoryList/>
+            story            
         </div>
     )    
 }

@@ -2,11 +2,11 @@ import React from 'react'
 import './storyList.scss'
 
 const ShowAvatar = (props) => {
-    const {avatarUrl, name} = props
+    const {avatarUrl, name, setIsStory } = props
     
     return (
         <div class='story-container'>
-            <div class='story-border'>
+            <div class='story-border' onClick={ () => setIsStory(true) }>
                 <img class='circle stories' src={ avatarUrl }/>
             </div>
             <p>{ name }</p>
@@ -15,7 +15,7 @@ const ShowAvatar = (props) => {
 }
 
 
-const StoryList = () => {
+const StoryList = ({ setIsStory }) => {
     
     const stories = [
         {
@@ -82,7 +82,8 @@ const StoryList = () => {
                             return (
                                 <ShowAvatar 
                                 avatarUrl= { item.avatar }
-                                name= { item.name }/>
+                                name= { item.name }
+                                setIsStory= { setIsStory }/>
                                 )
                         })
                     }
