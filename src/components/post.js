@@ -30,7 +30,6 @@ const PostCard = (props) => {
     
     return (
         <div className='container'>
-            <div class='row'>
             <div class="card">
                 <div class='valign-wrapper card-content account-content'>
                     <img class='circle account-img' src={ avatarUrl }/>
@@ -58,7 +57,6 @@ const PostCard = (props) => {
                 </div>
             </div>
             <Modal />
-            </div>
         </div>
     )
 
