@@ -1,0 +1,38 @@
+.card {
+  margin: 30px 0 0 0;
+  max-width: 616px;
+    border: 1px solid rgb(219, 219, 219) !important;
+    border-radius: 3px; //;;
+    box-shadow: none;
+}
+  
+.box-card {
+  
+  p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0 !important; 
+  }
+  .account-content {
+    display: flex;
+    overflow: scroll;
+
+    .story-container {
+      margin-right: 16px;
+
+      .story-border {
+        display: flex;
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        border: 2px solid #d92d7a;
+
+        img {
+          margin: 2.5px 0 0 2.5px ;
+          width: 56px;
+          height: 56px;
+        }
+      }
+    }
+  }
+}

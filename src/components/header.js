@@ -6,7 +6,7 @@ const Header = () => {
       <nav class='white'>
         <div class="nav-wrapper container">
           <a href="#" class="brand-logo left">
-          <img width='' src='https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png '></img>
+          <img width='' src='https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png'></img>
           </a>
           <a href="#" class="brand-logo center hide-on-small-only">
             <form>
