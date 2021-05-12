@@ -5,19 +5,19 @@ import 'materialize-css/dist/js/materialize.min.js'
 import Header from './components/header';
 import Post from './components/post'
 import Story from './components/story'
-import StoryList from './components/story'
+import StoryList from './components/storyList'
 
 const Instagram = () => {
-  const [isStory, setIsStory] = useState(false)
+  const [isStory, setIsStory] = useState(true);
   
   return (
     <div>
       {
         isStory 
-        ? <Story/> 
+        ? <Story /> 
         : <div>
             <Header />
-            <Story />
+            <StoryList setIsStory={ setIsStory }/>
             <Post />
           </div>
       }

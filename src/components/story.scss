@@ -1,0 +1,79 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black-container {
+  background-color: #1a1a1a;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+  .story-body {
+    background-color: #1a1a1a;
+    width: 28vw;
+    height: calc(100vh - 30px);
+    border-radius: 10px;
+  }
+
+  .insta-logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  .close-logo {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+}
+.font-bold {
+  font-weight: bold;
+  font-size: 14px !important;
+}
+
+.collection {
+  border: none !important;
+
+  .collection-item {
+    min-height: 44px !important;
+    background-color: transparent;
+
+    .stories {
+      width: 32px !important;
+      height: 32px !important;
+      margin-left: 15px;
+    }
+    .secondary-content {
+      top: 10px !important;
+      width: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      // top: 10px !important;
+    }
+  }
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+
+.progress {
+  margin-top: 30px;
+  height: 3px;
+  border-radius: 1px;
+  background-color: grey;
+  opacity: 0.5;
+}
+
+.progress-bar {
+  background-color: white;
+  height: 3px;
+  border-radius: 1px;
+  width: 0;
+}
