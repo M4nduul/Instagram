@@ -14,7 +14,7 @@ const Instagram = () => {
     <div>
       {
         isStory 
-        ? <Story /> 
+        ? <Story setIsStory = { setIsStory } /> 
         : <div>
             <Header />
             <StoryList setIsStory={ setIsStory }/>
